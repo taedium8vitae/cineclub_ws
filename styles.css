@@ -1,12 +1,11 @@
-@import "https://unpkg.com/open-props";
-@media (min-width: 500px) {
+@media (min-width: 400px) {
   .media_scroller{
-      grid-auto-columns: 40vh;
+      grid-auto-columns: 28%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .media_scroller{
-      grid-auto-columns: 40vh;
+      grid-auto-columns: 90%;
   }
 }
 .media_scroller {
@@ -17,9 +16,7 @@
 
     padding: var(--spacer1) var(--spacer1) var(--spacer1);
 
-    overflow-x: auto;
-    overflow-y: hidden;
-    overscroll-behavior-inline: contain;
+    overflow-x: visible;
 }
 .movie{
     display: grid;
@@ -29,6 +26,12 @@
     /* background: #e9ecef; */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.future {
+    /*background: aquamarine;*/
+}
+.date {
+    
 }
 .movie > img {
     inline-size: 100%;
@@ -44,4 +47,20 @@
 }
 .poster {
     border-radius: 5px;
+}
+.syno {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+}
+.open-syno {
+    visibility: visible;
 }
