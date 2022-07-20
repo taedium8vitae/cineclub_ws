@@ -1,22 +1,23 @@
-@media (min-width: 400px) {
-  .media_scroller{
-      grid-auto-columns: 28%;
-  }
+.head {
+    width: 100%;
+    height: 10%;
 }
-@media (max-width: 400px) {
-  .media_scroller{
-      grid-auto-columns: 90%;
-  }
+.foot {
+    width: 100%;
+    height: 5%;
 }
 .media_scroller {
+    width: 100%;
+    height: 85%;
     --spacer1: 1rem;
     display: grid;
+    grid-auto-columns: 28%;
     gap: var(--spacer1);
     grid-auto-flow: column;
 
     padding: var(--spacer1) var(--spacer1) var(--spacer1);
 
-    overflow-x: visible;
+    overflow-x: auto;
 }
 .movie{
     display: grid;
@@ -28,7 +29,7 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .future {
-    /*background: aquamarine;*/
+    background: aquamarine;
 }
 .date {
     

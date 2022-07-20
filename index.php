@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/styles.css" rel="stylesheet" type="text/css">
         <title>CSM Cinéclub</title>
     </head>
@@ -19,7 +20,9 @@
     ?>
     </head>
     <body>
-        <!--<h1>Cinéclub du collège St-Michel</h1>-->
+        <header class="head">
+            <h1>Cinéclub du collège St-Michel</h1>
+        </header>
         <div class="media_scroller snaps-inline">
             <?php
             $today = date("Y-m-d");
@@ -34,5 +37,8 @@
                 }
                 ?>
         </div>
+        <footer>
+            <p class="foot">&copy; Copyright 2022 - Cinéclub du collège St-Michel</p>
+        </footer>
     </body>
 </html>
