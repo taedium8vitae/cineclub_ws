@@ -59,14 +59,14 @@
                         }
                         // Afficher le prochain film
                         ?>
-                        <img src="/images/<?php echo $movie['linkToImage'] ?>" alt="<?php echo $movie['title'] ?>">
+                        <img src="https://raw.githubusercontent.com/taedium8vitae/cineclub_ws/main/images/<?php echo $movie['linkToImage'] ?>" alt="<?php echo $movie['title'] ?>">
                         <h2 class="movieTitle"><?php echo $movie['title'] ?></h2>
                         <h2 class="movieDate"><?php echo date('d M Y',strtotime($movie['date'])); ?></h2>
                         <?php
                     } else {
                         // Afficher que le prochain film n'a pas encore été annoncé
                         ?>
-                        <img src="/images/noMovie.png" alt="Le prochain film n'a pas encore été annoncé">
+                        <img src="https://raw.githubusercontent.com/taedium8vitae/cineclub_ws/main/images/noMovie.png" alt="Le prochain film n'a pas encore été annoncé">
                         <h2 class="movieTitle">Aucun film à l'affiche</h2>
                         <?php
                     }
