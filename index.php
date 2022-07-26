@@ -8,36 +8,10 @@
         <title>CSM Cinéclub</title>
     </head>
 
-    <?php
-    // Connexion à la base de données
-
-    try{
-        $bdd = new PDO('mysql:host=localhost;dbname=cinema;charset=utf8', 'root', 'root');
-    }
-    catch(Exception $e){
-        die('Error : '.$e->getMessage());
-    }
-    $sqlQuery = "SELECT * FROM movies_list";
-    $moviesStatement = $bdd->prepare($sqlQuery);
-    $moviesStatement->execute();
-    $movies = $moviesStatement->fetchAll();
-    ?>
+    <?php include('dbConnect.php'); ?>
 
     <body>
-        <header class="primary-header">
-            <div class="container">
-                <div class="logo">
-                    <a href="/">CSM Cinéclub</a>
-                </div>
-                <nav class="primary-navigation">
-                    <ul role="list" class="nav-list">
-                        <li><a href="#">Films</a></li>
-                        <li><a href="#">A Propos</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
+        <?php include('header.php'); ?>
         <main>
             <div class="nextMovie">
                 <div class="poster">
