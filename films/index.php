@@ -8,7 +8,7 @@
         <title>CSM Cinéclub</title>
     </head>
 
-    <?php include('dbConnect.php'); ?>
+    <?php include('../dbConnect.php'); ?>
 
     <body>
         <?php include ('../header.php'); ?>
