@@ -33,9 +33,6 @@ li {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* background-image: url("/images/background_film.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 .poster {
     background-color: white;
@@ -63,6 +60,9 @@ li {
     footer {
         font-size: 0.9em;
     }
+    .nextMovie {
+        margin-top: 1em;
+    }
 }
 .movieTitle {
     font-weight: 700;
@@ -88,6 +88,7 @@ a {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 1em;
     margin: auto;
+    margin-bottom: 2em;
     border-radius: 0.5em;
     max-width: 30%;
 }
@@ -104,6 +105,7 @@ a {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 4em;
+    padding-top: 1em;
 }
 .smallPoster {
     height: 100%;
@@ -118,16 +120,46 @@ a {
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 1em;
-    margin: 2em;
+    margin: 1em;
     margin-bottom: 5em;
     border-radius: 0.5em;
 }
 @media (max-width: 1284px){
     .moviesContainer{
         flex-direction: column;
+        padding: auto;
     }
     .movie {
+        margin-bottom: 6em;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+.social {
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: auto;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+    max-width: 30%;
+    max-height: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social-div {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.social-text {
+    font-weight: 700;
+}
+@media (max-width: 1284px){
+    .about-container{
+        max-width: 60%;
+        margin-top: 1em;
     }
 }
