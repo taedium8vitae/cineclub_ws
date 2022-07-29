@@ -83,3 +83,51 @@ a {
     color: black;
     text-decoration: none;
 }
+.about-container {
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1em;
+    margin: auto;
+    border-radius: 0.5em;
+    max-width: 30%;
+}
+.about-content {
+    margin: 1em;
+}
+.map {
+    height: 30vh;
+    width: 100%;
+}
+.moviesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 4em;
+}
+.smallPoster {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 2/3;
+    object-fit: contain;
+    border-radius: 0.5em;
+}
+.movie {
+    width: 16em;
+    height: 24em;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1em;
+    margin: 2em;
+    margin-bottom: 5em;
+    border-radius: 0.5em;
+}
+@media (max-width: 1284px){
+    .moviesContainer{
+        flex-direction: column;
+    }
+    .movie {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

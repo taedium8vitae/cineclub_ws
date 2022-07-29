@@ -6,7 +6,7 @@
         <nav class="primary-navigation">
             <ul role="list" class="nav-list">
                 <li><a href="/films/">Films</a></li>
-                <li><a href="/about/">A Propos</a></li>
+                <li><a href="/about/">À Propos</a></li>
             </ul>
         </nav>
     </div>

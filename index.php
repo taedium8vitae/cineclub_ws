@@ -60,8 +60,6 @@
                 </div>
             </div>
         </main>
-        <footer>
-            <p>&copy; Copyright 2022 - Cinéclub du collège St-Michel</p>
-        </footer>
+        <?php include('footer.php'); ?>
     </body>
 </html>
