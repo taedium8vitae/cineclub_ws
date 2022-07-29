@@ -112,7 +112,6 @@ a {
     width: 100%;
     aspect-ratio: 2/3;
     object-fit: contain;
-    border-radius: 0.5em;
 }
 .movie {
     width: 16em;
