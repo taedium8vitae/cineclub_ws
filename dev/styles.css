@@ -162,3 +162,7 @@ a {
         margin-top: 1em;
     }
 }
+#map-div {
+    height: 50vh;
+    width: 50vw;
+}
