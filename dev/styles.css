@@ -126,12 +126,12 @@ a {
 @media (max-width: 1284px){
     .moviesContainer{
         flex-direction: column;
-        padding: auto;
+        padding: none;
+        margin: auto;
     }
     .movie {
         margin-bottom: 6em;
-        margin-left: auto;
-        margin-right: auto;
+        margin: none;
     }
 }
 .social {

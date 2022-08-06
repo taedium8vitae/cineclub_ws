@@ -19,7 +19,7 @@
                 if($today <= $movie['date']){}else{
             ?>
                         <div class="movie">
-                            <img class="smallPoster" src="https://raw.githubusercontent.com/taedium8vitae/cineclub_ws/main/images/<?php echo $movie['linkToImage']; ?>" alt="<?php echo $movie['title']; ?>">
+                            <img class="smallPoster" src="https://raw.githubusercontent.com/taedium8vitae/cineclub_ws/main/images-mini/<?php echo $movie['linkToImage']; ?>" alt="<?php echo $movie['title']; ?>">
                             <h2 class="smallTitle"><?php echo $movie['title']; ?></h2>
                             <p class="smallDate"><?php echo date('d M Y',strtotime($movie['date'])); ?></p>
                         </div>
