@@ -1,3 +1,1 @@
-<footer>
-    <p>&copy; Copyright 2022 - Cinéclub du collège St-Michel</p>
-</footer>
+<footer><p>© Copyright 2022 - Cinéclub du collège St-Michel</p></footer>

@@ -120,18 +120,21 @@ a {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 1em;
     margin: 1em;
-    margin-bottom: 5em;
+    margin-bottom: 6em;
     border-radius: 0.5em;
 }
 @media (max-width: 1284px){
     .moviesContainer{
         flex-direction: column;
-        padding: none;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 0;
+        padding-top: 1em;
         margin: auto;
     }
     .movie {
-        margin-bottom: 6em;
-        margin: none;
+        margin: 0;
+        margin-bottom: 7em;
     }
 }
 .social {
