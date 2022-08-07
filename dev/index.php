@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:800,700,500,400">
         <link href="/styles.css" rel="stylesheet" type="text/css">
-        <title>CSM Cinéclub</title>
+        <title>Cinéclub du Collège St-Michel Fribourg</title>
+        <meta name="description" content="Découvrez le prochain film à venir au Cinéclub du collège St-Michel Fribourg." />
     </head>
 
     <?php include('dbConnect.php'); ?>
